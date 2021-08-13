@@ -16,7 +16,7 @@ const {Typography,Box,Button,ButtonGroup,Icon,Checkbox,Fab,Container,Grid,Paper,
     appbar:{
       backgroundColor: "rgba(21,21,21, 0.01)",
       height:"10vh",
-      // position:"initial",
+      position:"initial",
       "box-shadow":"none"
     },
     intro1:
@@ -375,7 +375,7 @@ const useStyles_card = makeStyles((theme) => createStyles(
     // margin:"5px"
     // width: "100vh",
     // background: "linear-gradient(to right, #485563, #29323c)"
-    backgroundColor:"grey"
+    backgroundColor:"rgb(225, 225, 225)"
   },
   media: {
     height: "50vh",
@@ -443,10 +443,10 @@ const useStyles_card = makeStyles((theme) => createStyles(
             
 
         {props.t == 2 && 
-        <Container maxWidth="lg" style={{display:"flex","justify-content": "center","min-width":"70vw"}}>
+        <Container maxWidth="lg" style={{display:"flex","justify-content": "center","min-width":"70vw","bacgtound-color":"white"}}>
         <video  autoplay muted loop id="myVideo" className={classes.media}>
         <source src={props.url} type="video/mp4" />
-                </video>
+                </video><Divider style={{"background-color":"black"}}/>
                 </Container>
          }
          {props.title == "Video" && setTimeout(()=>{document.querySelector("video").play()},11) }
