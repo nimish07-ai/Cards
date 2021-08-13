@@ -335,9 +335,13 @@ background: "linear-gradient(180deg, rgba(65,67,69,1) 5%, rgba(47,48,49,1) 26%, 
 
              
               <Typography variant="h5" style={{color:"grey"}}>
-                by : Seven<br/>
-                <a href="https://www.instagram.com/sevennn.07/" class="fa fa-instagram"></a>
-                <a href="seventest30@gmail.com" class="fa fa-google"></a>
+                by :<ul>
+                <li> Seven<br/> </li>
+                 <a href="https://www.instagram.com/sevennn.07/" class="fa fa-instagram"></a>
+                <br/>
+                <li> Rehan khan<br/></li>
+                <a href="https://www.instagram.com/rehaaaan.03/" class="fa fa-instagram"></a>
+                </ul>
               </Typography>
               </Container>
               </Box>
