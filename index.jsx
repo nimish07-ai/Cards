@@ -825,6 +825,13 @@ render()
     </BottomNavigation>
 
     <Divider />
+    <Container maxWidth="lg">
+      <Box  style={{background: "rgb(225, 225, 225)",padding:"2vw"}}>
+    <Typography variant="h5"> Edit page is Under Development  please submit youe email id  so that we can reach u when we are up </Typography>
+    <Form />
+     
+    </Box>
+    </Container>
   </>
 }
 
