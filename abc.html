@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+<body>
+
+
+    
+    
+  <form action="https://docs.google.com/forms/d/e/1FAIpQLSd0LuJgfrKyaJuMAlzfs2F5xUvkaDPAJU2UFB6FfO2jxmoirg/formResponse" method="post" target="hidden_iframe" onsubmit="return validateForm();">
+    <div class="textbox">
+        <i class="fa fa-user" aria-hidden="true"></i>
+
+        <input type="text" placeholder="Name" id="name" name="entry.1428372542" required="" autocomplete="off">
+    </div>
+    <div class="textbox">
+        <i class="fa fa-envelope" aria-hidden="true"></i>
+
+        <input type="email" placeholder="Email" id="email" name="entry.1181534084" required="" autocomplete="off">
+    </div>
+    <input type="submit" class="btn" value="Enter">
+</form>
+    <script>
+      function validateName() {
+                var name = document.getElementById('name').value;
+                if (name.length == 0) {
+                    alert("Name can't be blank");
+                    return false;
+
+                }
+                if (!name.match(/^[a-zA-Z]{3,}(?: [a-zA-Z]+){0,2}$/)) {
+                    alert("Please enter your correct name"); //Validation Message
+                    return false;
+                }
+                return true;
+            }
+
+
+
+            function validateEmail() {
+
+                var email = document.getElementById('email').value;
+                if (email.length == 0) {
+                    alert("Email can't be blank"); //Validation Message
+                    return false;
+
+                }
+
+                if (!email.match(/^[A-Za-z\._\-[0-9]*[@][A-Za-z]*[\.][a-z]{2,4}$/)) {
+                    alert("Please enter a correct email address"); //Validation Message
+                    return false;
+
+                }
+
+                return true;
+
+            }
+
+
+            function validateForm() {
+              return true
+
+            }
+        </script>
+</body>
+</html>
