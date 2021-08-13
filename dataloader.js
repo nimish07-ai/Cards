@@ -76,8 +76,6 @@ window.data1={
         
         {title:"Lizard3",t:1,url:"https://nimish07-ai.github.io/Cards/simi/139642930_1052260045256496_486278920629957473_n.jpg",body: "You are one of gorgeous women i have ever met"},
         
-        {title:"Video",t:2,url:"https://nimish07-ai.github.io/Cards/simi/vid.mp4",body: "I cant stop laughing when ever i watch this video"},
-    
         {title:"Lizard4",t:1,url:"https://nimish07-ai.github.io/Cards/simi/abc.jpg",body: "Always honoured to have Mrs abhayn as my buddy"},
          
     ],
