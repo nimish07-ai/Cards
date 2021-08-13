@@ -69,14 +69,14 @@ window.data1={
     },
     body_section:[
             
-        {title:"Lizard2",t:1,url:"https://nimish07-ai.github.io/Cards/simi/228764459_3910807552363476_4141029890408631534_n.jpg",body: "most photogenic person jiska har ake pic looks best but you seldom like any"},
+        {title:"Lizard2",t:1,url:"https://nimish07-ai.github.io/Cards/simi/228764459_3910807552363476_4141029890408631534_n.jpg",body: "Most photogenic person jiska har ake pic looks best but you seldom like any"},
 
 
-        {title:"Lizard1",t:1,url:"https://nimish07-ai.github.io/Cards/simi/IMG_20210125_223003_787.jpg",body: "thnak you for helping me to get a good selfi"},
+        {title:"Lizard1",t:1,url:"https://nimish07-ai.github.io/Cards/simi/IMG_20210125_223003_787.jpg",body: "Thank you for helping me to get a good selfi"},
         
-        {title:"Lizard3",t:1,url:"https://nimish07-ai.github.io/Cards/simi/139642930_1052260045256496_486278920629957473_n.jpg",body: "you are one of gorgeous women i have ever met"},
+        {title:"Lizard3",t:1,url:"https://nimish07-ai.github.io/Cards/simi/139642930_1052260045256496_486278920629957473_n.jpg",body: "You are one of gorgeous women i have ever met"},
         
-        {title:"Video",t:2,url:"https://nimish07-ai.github.io/Cards/simi/vid.mp4",body: "i cant stop laughing when ever i watch this video"},
+        {title:"Video",t:2,url:"https://nimish07-ai.github.io/Cards/simi/vid.mp4",body: "I cant stop laughing when ever i watch this video"},
     
         {title:"Lizard4",t:1,url:"https://nimish07-ai.github.io/Cards/simi/abc.jpg",body: "Always honoured to have Mrs abhayn as my buddy"},
          
